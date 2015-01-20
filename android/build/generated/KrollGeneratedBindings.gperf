@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name TiInfraredBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.geraudbourdin.infrared.ExampleProxy.h"
+#include "com.geraudbourdin.infrared.TiInfraredModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.geraudbourdin.infrared.ExampleProxy, ::com::geraudbourdin::infrared::tiinfrared::ExampleProxy::bindProxy, ::com::geraudbourdin::infrared::tiinfrared::ExampleProxy::dispose
+com.geraudbourdin.infrared.TiInfraredModule, ::com::geraudbourdin::infrared::TiInfraredModule::bindProxy, ::com::geraudbourdin::infrared::TiInfraredModule::dispose
+%%

@@ -1,0 +1,18 @@
+Appcelerator Titanium Mobile Module Project
+===========================================
+
+Provide access to InfraRed emitter for Android (like SHV-E300S or Samsung galaxy Tab with IR emitter).
+
+
+GET STARTED
+------------
+
+To compile module : 
+1- 	Use "Build PATH > configure Build PATH > java build Path > Libraries > Add Externals JARS"
+ 	to add Android 21 (mine is under the directory "/Users/gtwin/Library/android-sdk-macosx/platforms/android-21").
+2-  Update the  "build.properties" file to fit your configuration.
+	Here is mine :
+	titanium.platform=/Users/gtwin/Library/Application Support/Titanium/mobilesdk/osx/3.5.0.GA/android
+	android.platform=/Users/gtwin/Library/android-sdk-macosx/platforms/android-21
+	google.apis=/Users/gtwin/Library/android-sdk-macosx/add-ons/addon-google_apis-google-21
+	android.ndk=/Users/gtwin/Documents/Titanium_Studio_Workspace/android-ndk-r10c

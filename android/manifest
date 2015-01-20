@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: ti_infrared
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: ti_infrared
+moduleid: com.geraudbourdin.infrared
+guid: 2de77c68-9f14-4ee6-937b-e9e345fc1e6e
+platform: android
+minsdk: 3.5.0.GA
